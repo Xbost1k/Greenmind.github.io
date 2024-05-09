@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="canonical" href="https://greenmind.com/">
+	<title>Greenmind</title>
+	<meta name="description" content="description">
+	<meta name="keywords" content="html">
+	<meta property="fb:admins" content="YourFacebookUsername">
+	<meta property="og:title" content="Greenmind">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://greenmind.com/">
+	<meta property="og:image" content="https://greenmind.com/images/html-cheatsheet.jpg">
+	<meta property="og:description" content="greenmind description">
+	<link rel="apple-touch-icon" href="icons/logo_icon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="icons/logo_icon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles/fonts.css">
+	
+</head>
+
+<body>
+	<header class="header container">
+		<div class="header__top">
+			<div class="header__logo">
+				<a class="header__logo-link" href="#"><span>GREENMIND</span></a>
+			</div>
+			<nav class="header__nav">
+				<ul class="header__nav-list">
+					<li class="header__nav-item"><a class="header__nav-link" href="#">Home</a></li>
+					<li class="header__nav-item"><a class="header__nav-link" href="#">Products</a></li>
+					<li class="header__nav-item"><a class="header__nav-link" href="#">Contacts</a></li>
+				</ul>
+			</nav>
+			<div class="header__cart-user">
+				<a class="header__cart-link" href="#"><img class="header__cart-icon" src="icons/header_basket.png" alt="basket"></a>
+				<a class="header__person-link" href="#"><img class="header__person-icon" src="icons/header_person.png" alt="person"></a>
+				<div class="header__vertical-line"></div>
+				<a class="header__filterRight-link" href="#"><img src="icons/header_FilterRight.png" alt="filter Right"></a>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="header__title">
+				<h1 class="header__title-text">Buy your dream plants</h1>
+				<div class="header__statistics">
+					<div class="header__statistics-number">
+						<span class="header__statistics-count">50+</span>
+						<span class="header__statistics-text">Plant Species</span>
+					</div>
+					<div class="header__statistics-line"></div>
+					<div class="header__statistics-number">
+						<span class="header__statistics-count">100+</span>
+						<span class="header__statistics-text">Customers</span>
+					</div>
+				</div>
+				<form action="/search" method="GET" class="header__search-form">
+					<div class="header__search-container">
+						<input class="header__search-text" type="text" name="query" placeholder="What are you looking for?" required>
+						<button type="submit" class="header__search-button"><img class="header__search-icon" src="icons/header_search.png" alt="Search"></button>
+					</div>
+				</form>
+			</div>
+			<img class="header__bottom-image" src="images/header_flower.png" alt="flower">
+			
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="catalog container">
+			<div class="catalog__info">
+				<h2 class="catalog__title">Best Selling Plants</h2>
+				<p class="catalog__text poppins-medium">Easiest way to healthy life by 
+					buying your favorite plants</p>
+				<button class="catalog__btn btn poppins-medium">See more<img class="btn-icon" src="icons/header_ArrowRight.png" alt="Arrow Right"></button>
+			</div>
+			<div class="catalog__market">
+				<a class="catalog__link" href="#">
+					<article class="catalog__item">
+						<img class="catalog__item-image" src="images/Natural_Plants.jpg" 
+							alt="Natural Plants">
+						<h3 class="catalog__item-title poppins-medium">Natural Plants</h3>
+						<span class="catalog__item-price poppins-medium">₱ 1,400.00</span>
+					</article>
+				</a>
+				<a class="catalog__link" href="#">
+					<article class="catalog__item">
+						<img class="catalog__item-image" src="images/Artificial_Plants.jpg" 
+							alt="Natural Plants">
+						<h3 class="catalog__item-title poppins-medium">Natural Plants</h3>
+						<span class="catalog__item-price poppins-medium">₱ 1,400.00</span>
+					</article>
+				</a>
+				<a class="catalog__link" href="#">
+					<article class="catalog__item">
+						<img class="catalog__item-image" src="images/Artificial_Plants2.jpg" 
+							alt="Natural Plants">
+						<h3 class="catalog__item-title poppins-medium">Natural Plants</h3>
+						<span class="catalog__item-price poppins-medium">₱ 1,400.00</span>
+					</article>
+				</a>
+			</div>
+		</div>
+
+		<div class="service container">
+			<h2 class="service__title poppins-bold">About us</h2>
+			<p class="service__text poppins-medium">Order now and appreciate the beauty of nature</p>
+			<div class="service__list">
+				<a class="service__item-link" href="#">
+					<div class="service__item">
+						<div class="service__item-icon">
+							<img class="service__item-image" src="icons/large_assortment_icon.png" alt="large assortment">
+						</div>
+						<h3 class="service__item-title poppins-bold">Large Assortment</h3>
+						<p class="service__item-text poppins-medium">
+							we offer many different types of products with fewer 
+							variations in each category.
+						</p>
+					</div>
+				</a>
+				<a class="service__item-link" href="#">
+					<div class="service__item">
+						<div class="service__item-icon">
+							<img class="service__item-image" src="icons/Fast_Free_Shipping_icon.png" alt="large assortment">
+						</div>
+						<h3 class="service__item-title poppins-bold">Fast & Free Shipping</h3>
+						<p class="service__item-text poppins-medium">
+							4-day or less delivery time, free shipping and an expedited delivery option.
+						</p>
+					</div>
+				</a>
+				
+				<a class="service__item-link" href="#">
+					<div class="service__item">
+						<div class="service__item-icon">
+							<img class="service__item-image" src="icons/Support_icon.png" alt="large assortment">
+						</div>
+						<h3 class="service__item-title poppins-bold">24/7 Support</h3>
+						<p class="service__item-text poppins-medium">
+							answers to any business related inquiry 24/7 and in real-time.
+						</p>
+					</div>
+				</a>
+				
+			</div>
+		</div>
+
+		<div class="categories">
+			<h2 class="categories__title poppins-bold">Categories</h2>
+			<p class="categories__text poppins-medium">Find what you are looking for</p>
+			<div class="categories__bg">
+				<div class="categories__list container">
+					
+						<div class="categories__list-item left-hang">
+							<img class="categories__list-image" src="images/categories_Natural_Plants.jpg" alt="categories Natural Plants">
+							<h3 class="categories__list-title poppins-bold">Natural Plants</h3>
+						</div>
+					
+
+					
+						<div class="categories__list-item">
+							<img class="categories__list-image" src="images/categories_Plant_Accessories.jpg" alt="categories Natural Plants">
+							<h3 class="categories__list-title poppins-bold">Natural Plants</h3>
+							<p class="categories__list-text poppins-medium">
+								Horem ipsum dolor sit amet, consectetur adipiscing elit.
+							</p>
+							<button class="categories__btn btn poppins-medium">Explore <img class="btn-icon" src="icons/header_ArrowRight.png" alt="Arrow right"></button>
+						</div>
+					
+<!--  -->
+					
+						<div class="categories__list-item right-hang">
+							<img class="categories__list-image" src="images/categories_Artificial_Plants.jpg" alt="categories Natural Plants">
+							<h3 class="categories__list-title poppins-bold">Natural Plants</h3>
+						</div>
+					
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="comments container">
+			<h2 class="comments__title poppins-bold">What customers say about <br> GREEMIND?</h2>
+			<div class="comments__switcher">
+				<div class="comments__switcher-dot comments__switcher-dot--active"></div>
+				<div class="comments__switcher-dot"></div>
+				<div class="comments__switcher-dot"></div>
+			</div>
+			<div class="comments__list">
+				<div class="comments__item">
+					
+					<p class="commemts__text poppins-medium">
+						Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+					</p>
+					<img class="comments__user-avatar" src="images/avatar1.png" alt="profile1">
+					<div class="comments__bottom">
+						<div class="comments__user">
+							<img class="comments__user-quotes" src="icons/quotes_icon.png" alt="quotes">
+							<div class="comments__data">
+								<h3 class="comments__data-name poppins-bold">John Doe</h3>
+								<span class="comments__data-activity poppins-medium">Youtuber</span>
+							</div>
+						</div>
+						
+						
+						<div class="comments__rating">
+							<img class="comments__rating-icon" src="icons/rating_icon.png" alt="rating">
+							<span class="comments__rating-value poppins-bold">4.5</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="comments__item">
+					
+					<p class="commemts__text poppins-medium">
+						Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+					</p>
+					<img class="comments__user-avatar2" src="images/avatar2.png" alt="profile1">
+					<div class="comments__bottom">
+						<div class="comments__user">
+							<img class="comments__user-quotes" src="icons/quotes_icon.png" alt="quotes">
+							<div class="comments__data">
+								<h3 class="comments__data-name poppins-bold">John Doe</h3>
+								<span class="comments__data-activity poppins-medium">Youtuber</span>
+							</div>
+						</div>
+						
+						
+						<div class="comments__rating">
+							<img class="comments__rating-icon" src="icons/rating_icon.png" alt="rating">
+							<span class="comments__rating-value poppins-bold">4.5</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="footer__layout container">
+			<div class="footer__left">
+				<img class="footer__logo" src="icons/logo_icon.ico" alt="logo">
+				<p class="footer__text poppins-medium">We help you find your dream plant</p>
+				<div class="footer__social-list">
+					<a href="#"><div class="footer__social-item">
+						<img class="footer__social-icon" src="icons/fb_icon.png" alt="facebook">
+					</div></a>
+					<a href="#"><div class="footer__social-item">
+						<img class="footer__social-icon" src="icons/in_icon.png" alt="facebook">
+					</div></a>
+					<a href="#"><div class="footer__social-item">
+						<img class="footer__social-icon" src="icons/twitter_icon.png" alt="facebook">
+					</div></a>
+				</div>
+			</div>
+			<table class="footer__info">
+				<tr class="footer__info-title poppins-bold">
+					<th>Information</th>
+					<th>Company</th>
+					<th>Contact</th>
+				</tr>
+				<tr class="footer__info-text poppins-regular">
+					<td><a class="" href="#">About</a></td>
+					<td><a class="" href="#">Community</a></td>
+					<td><a class="" href="#">Getting Started</a></td>
+				</tr>
+				<tr class="footer__info-text poppins-regular">
+					<td><a href="#">Product</a></td>
+					<td><a href="#">Career</a></td>
+					<td><a href="#">Pricing</a></td>
+				</tr>
+				<tr class="footer__info-text poppins-regular">
+					<td><a href="#">Blog</a></td>
+					<td><a href="#">Our story</a></td>
+					<td><a href="#">Resources</a></td>
+				</tr>
+			</table>
+		</div>
+		<p class="footer__copyright container poppins-medium">2023 all Right Reserved Term of use GREENMIND</p>
+	</footer>
+</body>
+
+</html>
